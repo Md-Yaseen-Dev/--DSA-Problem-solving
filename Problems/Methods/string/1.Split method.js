@@ -16,33 +16,40 @@ console.log(words1);// without space
 
 // // using for loop for without space string
 
-const str1 = "This is first string";
+// const str1 = "This is first string";
 
-const arr = [];
+// const arr = [];
 
-for (i = 0; i < str1.length; i++) {
+// for (i = 0; i < str1.length; i++) {
 
-    arr.push(str1[i])
+//     arr.push(str1[i])
 
-}
+// }
 
-console.log(arr)
+// console.log(arr)
 
 
-// string in split using  for loop with space ;
+// string in split using  for loop wi th space ;
 
 let newArr = [];
-const str2 = "This is second string";
+const str2 = "This is seconds string";
 let str3 = ""
-for (i = 0; i < str1.length; i++) {
+for (i = 0; i < str2.length; i++) {
 
-        if (str1[i] != " ") {
+    const char = str2[i]
+        if (str2[i] != " ") {
+            str3 += char;
 
-            str3 += str1[i];
+
         }
         else {
             newArr.push(str3);
-             str3 =""
+            str3 =""
         }
-}
+    }
+
+ if(str3 !== ""){
+            newArr.push(str3)
+        }
+
 console.log(newArr);
