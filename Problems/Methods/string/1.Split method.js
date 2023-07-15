@@ -43,13 +43,13 @@ for (i = 0; i < str2.length; i++) {
 
         }
         else {
+            
             newArr.push(str3);
             str3 =""
         }
+        
     }
-
- if(str3 !== ""){
             newArr.push(str3)
-        }
+
 
 console.log(newArr);
