@@ -52,11 +52,13 @@ console.log(plaindrome([121, 131, 202]));
 
 
 //  reverse a number --
-// let reverse = 0;
-// let num = 24;
-// while (num !== 0) {
-//     var digit = num % 10;
-//     reverse = reverse * 10 + digit;
-//     num = Math.floor(num / 10)
-// }
-// console.log(reverse)
+
+let reverse = 0;  // 1
+let num = 21; 
+while (num !== 0) {    // 21 !==0 | 2!==0
+    var digit = num % 10; //  remainder = 2  |  rem : 2
+    reverse = reverse * 10 + digit;  // 0 * 10 + 1  |  1*10 + 2 =12
+    num = Math.floor(num / 10); //  2  | 0.2 == 0 
+}
+let plaindrome1 = (num == reverse) ? 1 : 0;
+console.log(plaindrome1);
