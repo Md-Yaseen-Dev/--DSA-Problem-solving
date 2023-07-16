@@ -27,8 +27,16 @@ var createHelloWorld = function(){
         return "hello world" 
 }}
 const f = createHelloWorld();
+
 console.log(f());
 console.log(f({},null,42));
 
 
+var createHelloWorld1 = function(){
 
+    return(...args)=> "hello world"
+}
+
+const g = createHelloWorld1();
+
+console.log(g());
