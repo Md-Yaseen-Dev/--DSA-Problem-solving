@@ -19,10 +19,10 @@ function copywithin(arr, target, start, end) {
             start++
             target++
         }
-       
+
     }
     return arr
 
 }
 
-console.log(copywithin(["a", "b", "C", "d", "e"], 1, 0, 3))
+console.log(copywithin(["a", "b", "C", "d", "e"], 1, 0, 3));
