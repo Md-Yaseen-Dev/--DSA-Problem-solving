@@ -32,6 +32,7 @@ function sum1() {
 console.log(sum1())
 
 
+
 // -----------------using reduce method-------------
 
 function sum2() {
@@ -93,3 +94,19 @@ function sum5() {
     return sum;
 }
 console.log(sum5());
+
+// ----------------using for in loop---------------------
+
+function sum6(){
+
+    let arr =[ 10,20,30];
+
+    let sum = 0 ;
+
+    for(index in arr){
+
+        sum += arr[index]
+    }
+    return sum
+}
+console.log(sum6())
