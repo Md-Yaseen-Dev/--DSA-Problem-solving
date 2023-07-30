@@ -46,6 +46,8 @@ function twononempty(arr1, arr2) {
 }
 
 console.log(twononempty([2, 4, 3], [5, 6, 4]))
+console.log(twononempty([9,9,9,9,9,9,9], [9,9,9,9]))
+
 
 
 
